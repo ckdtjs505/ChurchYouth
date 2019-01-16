@@ -7,6 +7,19 @@
   <title>MY FIRST Bulma</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <style>
+    #top {
+      margin:3rem 5rem 3rem 5rem;
+    }
+    @media (max-width:500px) {
+      #top{
+        text-align: center;
+        border-style: solid;
+        margin:5px 10px 5px 10px;
+        width : 95%;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -53,15 +66,15 @@
   </section>
 
   <!-- main -->
-  <section class ="media" style=" display:inline;">
-    <div style="margin:3rem 5rem 3rem 5rem;">
+  <section class ="main_text" style=" display:inline;">
+    <div id="top">
       <div >
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/2VEUE3ovAcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="youtube" width="100%" height="400" src="https://www.youtube.com/embed/2VEUE3ovAcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div style=" height: 3rem;  margin: auto;  padding: 10px;">
 
       </div>
-  
+
     </div>
 
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2VEUE3ovAcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
