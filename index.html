@@ -9,7 +9,12 @@
   <link href="http://fonts.googleapis.com/earlyaccess/nanumpenscript.css" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <style>
-
+  body{
+      font-family: 'Nanum Pen Script', cursive;
+  }
+  .title {
+    font-size: 250%
+  }
     .main {
 
       background-color: #e5e6e8;
@@ -17,7 +22,7 @@
     }
 
     .content {
-      font-family: 'Nanum Pen Script', cursive;
+
       font-size: 120%;
       border: 0.5px solid #e5e6e8;
       border-top: 1px solid white;
@@ -126,12 +131,34 @@
           주제 : 큰아버지 (우리에게알려지신 바 되셨으나우리의앎을넘어서 계시는아버지) <br>
           주제 말씀 : 공중의 새를 보라 심지도 않고 거두지도 않고 창고에 모이지도 아니하되 너희 하늘 아버지께서 기르시나니 너희는 이것들보다 귀하지 아니하냐” (마 6:26)
           <h3>수련회 홍보영상</h3>
-          <iframe id="youtube" width="800" height="400" src="https://www.youtube.com/embed/2VEUE3ovAcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <iframe id="youtube" width="100%" height="400" src="https://www.youtube.com/embed/2VEUE3ovAcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
       </div>
     </div>
-
-    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2VEUE3ovAcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <div class="answer">
+      <div id="disqus_thread"></div>
+      <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document,
+            s = d.createElement('script');
+          s.src = 'https://lovegrace-1.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
   </section>
   <!-- <div class="tile is-ancestor" style = "margin : 1rem">
     <div class="tile is-parent">
@@ -143,7 +170,7 @@
       </div>
     </div>
   </div> -->
-</body>
 
+</body>
 
 </html>
