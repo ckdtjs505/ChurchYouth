@@ -27,7 +27,8 @@ body {
 
 .cont_first {
   /* border: 1px solid red; */
-  max-width: 60rem;
+  max-width: 0rem
+  60rem;
   text-align: center;
   margin: auto;
 }
@@ -35,12 +36,14 @@ body {
 @media (max-width:500px) {
   #content {
     text-align: center;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 20px 5px 20px;
     width: 95%;
   }
-
   .cont_first {
-    margin: ;
+    /* border: 1px solid red; */
+    max-width:   21rem;
+    text-align: center;
+    margin: auto;
   }
 
 }
