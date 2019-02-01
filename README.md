@@ -14,3 +14,4 @@ bulma / css3 / Bootstrap /
 * HTML5 시멘틱 테그
 * 네이버 웹 검색엔진 등록
 * 네이버 웹마스터 이해 
+* Domain 사용
