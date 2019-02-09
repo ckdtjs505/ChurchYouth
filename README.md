@@ -1,11 +1,17 @@
-# STATIC
+# [**ChurchYouth**](http://lovegraceyouth.ga/)
 
-**This directory is not required, you can delete it if you don't want to use it.**
+교회 수련회 홍보를 위해 구현 <br>
+여러가지 기능들을 웹사이트로 접속하여 확인할 수 있었으면 하는 마음에 구축
 
-This directory contains your static files.
-Each file inside this directory is mapped to `/`.
-Thus you'd want to delete this README.md before deploying to production.
+* 2019년 1월
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+```dart
+bulma / css3 / Bootstrap /
+```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
+### 추가 기능
+* HTML SEO
+* HTML5 시멘틱 테그
+* 네이버 웹 검색엔진 등록
+* 네이버 웹마스터 이해 
+* Domain 사용
