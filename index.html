@@ -16,7 +16,12 @@
   <meta property="og:description" content="사랑과은혜교회 청년부♥">
   <link rel="stylesheet" href="asets/style.css">
 </head>
-
+<style>
+   #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+</style>
 <body>
   <section class="hero is-info">
     <!-- Hero head: will stick at the top -->
@@ -36,10 +41,10 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">
-            사랑과은혜교회 청년부
+          2019 Summer Gathering
         </h1>
         <h2 class="subtitle">
-           Love&Grace church youth
+          Love&Grace church youth
         </h2>
       </div>
     </div>
@@ -49,8 +54,8 @@
       <nav class="tabs is-boxed is-fullwidth">
         <div class="container">
           <ul>
-            <!-- <li class="is-active"><a href=index.html>Main</a></li> -->
-            <!-- <li><a href="pray.html">기도릴레이</a></li> -->
+            <li class="is-active"><a href=index.html>Main</a></li>
+            <li><a href="pray.html">기도카드</a></li>
             <!-- <li><a href="setRoom.html">조편성 & 방배정</a></li> -->
           </ul>
         </div>
@@ -73,18 +78,68 @@
         <h3>사랑과은혜교회 청년부 소개</h3>
         <img src="asets/church.png" width="200px" height="200px" alt="" style="center">
         <p style="text-align : center">
-
           우리 사랑과은혜교회 청년부는 <strong style="color : blue"> (1:30 ~ 2:00)</strong>
           <strong>KFC 건물 지하 1층</strong>에서 예배가 진행됩니다 <br>
-          예배가 끝난 후 <strong> 소그룹 모임</strong>으로 <strong style="color : red">말씀을 정리</strong>하고 <strong style="color : red">삶을 나누는 시간</strong>까지!! <br>
+          예배가 끝난 후 <strong> 소그룹 모임</strong>으로 <strong style="color : red">말씀을 정리</strong>하고 <strong
+            style="color : red">삶을 나누는 시간</strong>까지!! <br>
           많이 참여해주세요
         </p>
 
+        <h3>사랑과 은혜교회 청년부 수련회</h3>
+        <!-- <img src="asets/poster.png" style="" alt=""> -->
+        <p style="text-decoration:  underline;"> "준비중입니다"</p> 
+
+        <h3>수련회 일정</h3>
+        <!-- <img src="asets/plan.png" alt=""> -->
+        <p style="text-decoration: underline"> "준비중입니다"</p>
+
+        <p>
+          두근두근 기대되는 수련회 일정 <br>
+          재미난 레크레이션과
+          무엇보다 <strong style="color : red">뜨거운 예배</strong> <br>
+          많은 기대바랍니다
+        </p>
+
+        <h3>수련회 장소</h3>
+        <div id="map"></div>
+        <script>
+            // Initialize and add the map
+          function initMap() {
+            // The location of Uluru
+            var uluru = {lat: 37.380797, lng: 127.271432};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 15, center: uluru});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: uluru, map: map});
+          }
+        </script>
+        <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9CtGVPXG1eY-0NWDyU2Al7NZLeTz94LQ&callback=initMap">
+        </script>
+        <p> 주소 : 경기도 광주시 초월읍 진새골길 184 (진새골사랑의집) 
+        </p>
+
+        <h3>강사진</h3>
+        <div class="worker" style="display: max-width: 100rem; margin : auto">
+          <table style="width:100%">
+            <!-- <tr style="display : inline">
+              <img src="asets/moksa.jpg" alt="">
+              <div>
+                곽조준 목사
+              </div>
+            </tr> -->
+            <tr>
+              <img src="asets/kangdo.png" alt="">
+              <div>
+                이요한 강도사
+              </div>
+            </tr>
+          </table>
+        </div>
 
 
-
-
-        <h3>찬양팀</h3>
+        <h3>찬양인도</h3>
         <a href="https://www.youtube.com/channel/UCDyu4O-vNieCDzRtoRqBGCA"><img src="asets/singing.png" alt=""></a>
         <div class="">
           헤세드 찬양팀
@@ -102,7 +157,7 @@
             this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
             };
             */
-            (function() { // DON'T EDIT BELOW THIS LINE
+            (function () { // DON'T EDIT BELOW THIS LINE
               var d = document,
                 s = d.createElement('script');
               s.src = 'https://lovegrace-1.disqus.com/embed.js';
@@ -114,16 +169,6 @@
       </div>
     </div>
   </section>
-  <!-- <div class="tile is-ancestor" style = "margin : 1rem">
-    <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p class="title">Three</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-        <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-        <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
-      </div>
-    </div>
-  </div> -->
 
 </body>
 
