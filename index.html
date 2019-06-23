@@ -20,8 +20,8 @@
 <style>
    #map {
         margin: auto;
-        height: 250px;  /* The height is 400 pixels */
-        width: 60%;
+        height: 100%;  /* The height is 400 pixels */
+        width: 90%;
           /* The width is the width of the web page */
        }
 </style>
@@ -72,39 +72,59 @@
     <div id="top" class="content">
 
       <div class="cont_first">
-        <img src="asets/hello.png" style="margin : 5rem" width="150px" height="150px" alt="">
+        <!-- <img src="asets/hello.png" style="margin : 5rem" width="150px" height="150px" alt="">
 
         <p>안녕하세요! 사랑과은혜교회 청년부 수련회 홈페이지에 오신걸 환영합니다 <br>
           수련회를 통해 하나님을 만나는 시간이되길 기도합니다
-        </p>
+        </p> -->
 
-        <h3>사랑과은혜교회 청년부 소개</h3>
-        <img src="asets/church.png" width="200px" height="200px" alt="" style="center">
-        <p style="text-align : center">
-          우리 사랑과은혜교회 청년부는 <strong style="color : blue"> (1:30 ~ 2:00)</strong>
-          <strong>KFC 건물 지하 1층</strong>에서 예배가 진행됩니다 <br>
-          예배가 끝난 후 <strong> 소그룹 모임</strong>으로 <strong style="color : red">말씀을 정리</strong>하고 <strong
-            style="color : red">삶을 나누는 시간</strong>까지!! <br>
-          많이 참여해주세요
-        </p>
-
-        <h3>사랑과 은혜교회 청년부 수련회</h3>
-        <img src="asets/poster_summer1.png" style="" alt=""> 
+        <!-- <h3>2019 Summer Gathering</h3>
+        <h4>사랑과 은혜교회 청년부</h4>   -->
+        <img src="asets/poster_summer1.png" style="margin-top: 4rem" alt=""> 
       
 
-        <h3>수련회 일정</h3>
+        <!-- <h3>2019 Summer Gathering</h3>
+        <p>일정</p> -->
         <img src="asets/plan_summer.png" alt="">
-       
-
-        <p>
+      
+        <!-- <p>
           두근두근 기대되는 수련회 일정 <br>
           재미난 레크레이션과
           무엇보다 <strong style="color : red">뜨거운 예배</strong> <br>
           많은 기대바랍니다
-        </p>
+        </p> -->
+
+       
+        <h3>강사진</h3>
+        <div class="worker" style="display:block max-width: 100rem; margin : auto">
+          <table style="width:100%">
+            <tr style="display : inline">
+              <img style="width:350px" src="asets/moksa_summer.jpg" alt="">
+              <div>
+                이정규 목사
+              </div>
+            </tr>
+            <tr>
+              <img src="asets/kangdo.png" alt="">
+              <div>
+                이요한 강도사
+              </div>
+            </tr>
+          </table>
+        </div>
+
+        <h3>찬양인도</h3>
+        <a href="https://www.youtube.com/channel/UCDyu4O-vNieCDzRtoRqBGCA"><img src="asets/singing.png" alt=""></a>
+        <div class="">
+          헤세드 찬양팀
+        </div>
 
         <h3>수련회 장소</h3>
-        <div id="map"></div>
+        <div style="height: 250px; width: 100%; margin: auto">
+          <div id="map" ></div>
+        </div>
+
+        
         <script>
             // Initialize and add the map
           function initMap() {
@@ -123,34 +143,29 @@
         <p> 주소 : 경기도 광주시 초월읍 진새골길 184 (진새골사랑의집) 
         </p>
 
-        <h3>강사진</h3>
-        <div class="worker" style="display: max-width: 100rem; margin : auto">
-          <table style="width:100%">
-            <tr style="display : inline">
-              <img style="width:350px" src="asets/moksa_summer.jpg" alt="">
-              <div>
-                이정규 목사
-              </div>
-            </tr>
-            <tr>
-              <img src="asets/kangdo.png" alt="">
-              <div>
-                이요한 강도사
-              </div>
-            </tr>
-          </table>
-        </div>
-
-
-        <h3>찬양인도</h3>
-        <a href="https://www.youtube.com/channel/UCDyu4O-vNieCDzRtoRqBGCA"><img src="asets/singing.png" alt=""></a>
-        <div class="">
-          헤세드 찬양팀
-        </div>
 
         <h3>수련회 신청</h3>
-        <a href="https://forms.gle/gTLbxd1jRxB38V5N7"> 신청하기</a>
+        <a class="button is-info is-rounded" href="https://forms.gle/gTLbxd1jRxB38V5N7">신청하기</a>
+
         
+
+      
+
+        
+        
+
+        <h3>사랑과 은혜교회 청년부</h3>
+        <!-- <img src="asets/church.png" width="200px" height="200px" alt="" style="center"> -->
+        <img src="asets/lovegrace.jpg" alt="">
+        <p style="text-align : center">
+          우리 사랑과은혜교회 청년부는 <strong style="color : blue"> (1:30 ~ 2:00)</strong>
+          <strong>KFC 건물 지하 1층</strong>에서 예배가 진행됩니다 <br>
+          예배가 끝난 후 <strong> 소그룹 모임</strong>으로 <strong style="color : red">말씀을 정리</strong>하고 <strong
+            style="color : red">삶을 나누는 시간</strong>까지!! <br>
+          많이 참여해주세요
+        </p>
+        
+      
 
         <div class="relay">
           <div id="disqus_thread"></div>
