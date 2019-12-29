@@ -49,15 +49,17 @@ h5 {
   margin-bottom: 2rem;
 }
 
+.content-header {
+  margin-top: 2rem;
+}
 .content-song,
 .content-map,
 .content-introduce,
 .content-teacher {
   margin: 1rem auto;
   width: 70%;
-  background-color: #e5e6e8;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 1px 1px 20px #ddd;
 }
 
 .content-poster {
@@ -91,7 +93,9 @@ h5 {
   .content-map,
   .content-introduce,
   .content-teacher {
+    background-color: #e5e6e8;
     width: 90%;
+    box-shadow: 1px 1px 20px #ddd;
   }
 
   .song-img,
