@@ -1,22 +1,33 @@
 body {
-  font-size: 120%
+  font-size: 120%;
 }
 
-.title {
+p {
+  margin: auto;
+  width: 95%;
+  font-size: medium;
+}
+h3,
+h5 {
+  padding-top: 1rem;
+}
 
+.master {
+  width: 50%;
+}
+.introduce-img {
+  width: 90%;
 }
 
 .main {
   /* font-family: 'Nanum Pen Script', cursive; */
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   background-color: #e5e6e8;
   /* 배경색  */
 }
 
 .content {
-
   font-size: 120%;
-  border: 0.5px solid #e5e6e8;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   background-color: white;
@@ -34,15 +45,66 @@ body {
   margin: auto;
 }
 
-@media (max-width:500px) {
+.content-apply {
+  margin-bottom: 2rem;
+}
+
+.content-song,
+.content-map,
+.content-introduce,
+.content-teacher {
+  margin: 1rem auto;
+  width: 70%;
+  background-color: #e5e6e8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #ddd;
+}
+
+.content-poster {
+  margin: 1rem auto;
+  width: 70%;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.map {
+  width: 90%;
+  height: 15rem;
+}
+
+.relay {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+@media (max-width: 500px) {
   #content {
     text-align: center;
     margin: 5px 10px 5px 10px;
     width: 95%;
   }
+  .content-poster,
+  .content-song,
+  .content-map,
+  .content-introduce,
+  .content-teacher {
+    width: 90%;
+  }
 
+  .song-img,
+  .introduce-img {
+    width: 85%;
+  }
+  .main {
+    /* border: color so; */
+    margin: auto;
+    width: 95%;
+  }
   .cont_first {
-    max-width:   21rem;
+    max-width: 21rem;
     text-align: center;
     margin: auto;
   }
